@@ -36,20 +36,20 @@ hirth
 ![Demo of a range of hirth joints that can be generated](demogrid-square--Screenshot_20221019_105427.png)
 ![Demo of a 12 tooth hirth joint](demo-square--Screenshot_20221019_111236.png)
 
-## Notes:
+## Notes:  
 
-This is the third and so far most performant attempt.
-It uses convex hulls to span volumes.
+This is the third and so far most performant attempt.  
+It uses convex hulls to span volumes.  
 
-I found that the crux for hirth joints is to 
-***operate in spherical rahther than in cylindrical coordinates***
+I found that the crux for hirth joints is to  
+***operate in spherical rahther than in cylindrical coordinates***  
 
-## History of preceding attempts versions
+## History of preceding attempts versions  
 
-Elegant but inefficient & buggy (attempt two):
-Intersections of approximated halfspaces
-https://www.thingiverse.com/thing:397553
+Elegant but inefficient & buggy (attempt two):  
+Intersections of approximated halfspaces  
+https://www.thingiverse.com/thing:397553  
 
-Earliest (attempt one):
-Vertices and meshing:
-https://www.thingiverse.com/thing:387292
+Earliest (attempt one):  
+Vertices and meshing:  
+https://www.thingiverse.com/thing:387292  
