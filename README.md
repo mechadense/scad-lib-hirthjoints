@@ -13,15 +13,15 @@ depending on location
 
 ```
 hirth
-  ( n = 12
-  , r = 24
-  , zbase = 8
-  , slant = 60 
-  , a1up = 10
-  , a1down = 12
-  , cuttype = "cylindrical"
-  , dbore = 12
-  , acone = 0
+  ( n = 12 // number of teeth
+  , r = 24 // radius
+  , zbase = 8 // distance form center to bottom
+  , slant = 60 // steepness of the teeth
+  , a1up = 10 // angle anong a slanted tooth edge from center to top
+  , a1down = 12 // angle anong a slanted tooth edge from center to bottom
+  , cuttype = "cylindrical" // or "spherical" (natural cut but slower) or "none" (leave cutting to user)
+  , dbore = 12 // diameter of center hole - 0 for no hole 
+  , acone = 0 // make it convex (positive) or concave (negative)
   )
 ```
 
