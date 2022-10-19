@@ -12,7 +12,7 @@ Note that there is no math for sanity checking of supplied parameters.
 ## Usage tipps:
 
 ```
-use <Hirth.scad>
+use <lib-hirthjoints.scad>
 hirth
   ( n = 12
   , r = 24
