@@ -8,7 +8,7 @@ http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries
 e.g. Linux: $HOME/.local/share/OpenSCAD/libraries  
 
 use <lib-hirthjoints.scad> or  
-use <scad-lib-cyclogearprofiles/lib-hirthjoints.scad>  
+use <scad-lib-hirthjoints/lib-hirthjoints.scad>  
 depending on location  
 
 ```
