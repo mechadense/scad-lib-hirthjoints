@@ -36,9 +36,9 @@ This is the third and so far most performant attempt.
 It uses convex hulls to span volumes.
 
 I found that the crux for hirth joints is to 
-***operate in spherical rahther than in cylindrical coordinates***
+***operate in spherical rather than in cylindrical coordinates***
 
-## History of preceding attempts versions:
+## History of preceding attempts:
 
 Elegant but inefficient & buggy (attempt two):
 Intersections of approximated halfspaces
@@ -60,6 +60,7 @@ https://www.thingiverse.com/thing:387292
 // ##################################
 // https://customizer.makerbot.com/docs
 // Customizer
+
 /* [Global] */
 
 // number of hirth teeth (>=2)
@@ -75,21 +76,24 @@ up_angle = 10;
 // rotation angle downwards (roughly correspods to tooth depth)
 down_angle = 12;
 // spherical is most natural choice but slowest
-type_of_cutoff = "cylindrical"; // ["none","cylindrical","spherical"]
+type_of_cutoff = "cylindrical"; //["cylindrical","spherical","none"]
 // hole diameter (0 means no more)
 hole_diameter = 12;
 // if not 0 then the complementariy interface needs the same cone angle but negative 
 cone_angle = 0;
 
-/* [Resolution] */
+/* [Hidden] */
+
+//Resolution
 // minimal angle per "circle edge" 
 $fa = 2;
 // minimal length per "circle edge"
 $fs = 0.4;
 
-/* [Misc] */
+// colors
 cylcol = [0.9,0.9,0.9];
 basecolor = "cyan";
+
 
 // ##################################
 
