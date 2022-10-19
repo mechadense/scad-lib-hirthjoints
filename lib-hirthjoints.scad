@@ -120,7 +120,7 @@ hirth
 module demoarray
   (nmax = 12
   ,rdemo = 18
-  ,dist = 48, // way bigger for cuttype none
+  ,dist = 48 // way bigger for cuttype none
   ,zbasedemo_convex = 32
   ,zbasedemo_flat = 16
   ,zbasedemo_concave = 4
